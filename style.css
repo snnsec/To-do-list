@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    margin-top: 40px;
+
+}
+
+.mainblock {
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 336px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+
+.headblock {
+    height: 28px;
+
+    border-top: 1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #FFDC40;
+}
+
+.headtext {
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 30px;
+}
+
+.sortbutton {
+
+    padding-left: 90%;
+    width: 30px;
+    height: 30px;
+    background-color: #FFFFFF;
+    border: none;
+
+
+
+}
+
+.cntr {
+    margin-left: 28px;
+    margin-right: 22px;
+}
+
+.inputlist {
+
+    width: 286px;
+    height: 40px;
+    border: 1px solid #E5E5E5;
+    border-radius: 10px;
+
+}
+
+.inputblock {
+    padding-top: 20px;
+    position: relative;
+}
+
+.deletebutton {
+    background-color: #FFFFFF;
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 31px;
+
+}
+
+.abc {
+    display: flex;
+    padding-top: 15px;
+    position: relative;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.addbutton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    height: 42px;
+    background-color: #833AE0;
+    border: 1px solid #833AE0;
+    border-radius: 71px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.plus {
+    position: absolute;
+    width: 42px;
+    display: flex;
+    height: 42px;
+    border: 0px solid #9953F1;
+    border-radius: 71px;
+    background-color: #9953F1;
+    align-items: center;
+    justify-content: center;
+    right: 177px;
+
+}
+
+.deletebutton:hover img {
+    background-color: #833AE0;
+    border-radius: 50%;
+}
+
+.addbutton {
+    display: flex;
+    width: 150px;
+    height: 42px;
+    border: 1px solid #833AE0;
+}
+
+.addbtn {
+    margin-left: 68px;
+}
+
+.container {
+    width: 286px;
+    display: none;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+
+}
+
+.container ul {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    list-style: none;
+}
+
+.container ul li {
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+#singledelete {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+.container {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container ul li span:hover img {
+    background-color: #833AE0;
+    border-radius: 50%;
+}
