@@ -9,7 +9,7 @@ let change = true;
 
 function checklist(){
    if(list.children.length==0){
-      elmnt.style.display = 'none';
+      elmnt.style.display5 = 'none';
    }
 }
 addButton.addEventListener('click', (e) => {
@@ -22,6 +22,7 @@ addButton.addEventListener('click', (e) => {
 
       //new list
       let myLi = document.createElement('li')
+      myLi.classList.add('todolist')
       myLi.innerHTML = inputText.value;
       list.appendChild(myLi);
 
@@ -43,13 +44,25 @@ addButton.addEventListener('click', (e) => {
       })
 
    }
+
+  
    inputText.value = '';
+
+   function deleteall() {
+
+    list.innerHTML = '<ul></ul>';
+    elmnt.style.display = 'none'
+   }  
+
+   deleteAll.addEventListener('click', deleteall);
+   
 })
 
-function deleteall() {
-   elmnt.remove();
-}  
-deleteAll.addEventListener('click', deleteall);
+
+
+
+
+
 //sort func
 function sortList() { 
    let  d; 
@@ -94,14 +107,14 @@ function sortListDir() {
        if (dir == "asc") { 
          if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) { 
          document.querySelector(".sortbutton").innerHTML = 
-           '<img src="/img/wsortbutton2.svg"/> '; 
+           '<img src="./img/wsortbutton2.svg"/> '; 
            shouldSwitch = true; 
            break; 
          } 
        } else if (dir == "desc") { 
          if (b[i].innerHTML.toLowerCase() < b[i + 1].innerHTML.toLowerCase()) { 
          document.querySelector(".sortbutton").innerHTML = 
-           '<img src="/img/wsortbutton1.svg" class="sort-icon">'; 
+           '<img src="./img/wsortbutton1.svg" />'; 
            shouldSwitch = true; 
            break; 
          } 
