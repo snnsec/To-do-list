@@ -5,11 +5,9 @@ body {
     padding: 0;
     text-decoration: none;
     margin-top: 40px;
-
 }
 
 .mainblock {
-
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -22,7 +20,6 @@ body {
 
 .headblock {
     height: 28px;
-
     border-top: 1px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -39,15 +36,11 @@ body {
 }
 
 .sortbutton {
-
     padding-left: 90%;
     width: 30px;
     height: 30px;
     background-color: #FFFFFF;
     border: none;
-
-
-
 }
 
 .cntr {
@@ -56,12 +49,10 @@ body {
 }
 
 .inputlist {
-
     width: 286px;
     height: 40px;
     border: 1px solid #E5E5E5;
     border-radius: 10px;
-
 }
 
 .inputblock {
@@ -75,7 +66,6 @@ body {
     position: absolute;
     right: 0px;
     top: 31px;
-
 }
 
 .abc {
@@ -98,7 +88,6 @@ body {
     border-radius: 71px;
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
-
 }
 
 .plus {
@@ -112,7 +101,6 @@ body {
     align-items: center;
     justify-content: center;
     right: 177px;
-
 }
 
 .deletebutton:hover img {
@@ -136,7 +124,6 @@ body {
     display: none;
     border: 1px solid #c4c4c4;
     border-radius: 10px;
-
 }
 
 .container ul {
@@ -152,7 +139,6 @@ body {
 
 .container ul li {
     display: flex;
-   
     justify-content: space-between;
 }
 
